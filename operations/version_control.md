@@ -17,6 +17,9 @@
 - [Cert Manager](#cert-manager)
 - [External DNS](#external-dns)
 - [Cloudflared](#cloudflared)
+- [Vault](#vault)
+- [Flux.CD](#fluxcd)
+- [TF-Controller)](#tfcontroller)
 
 ## Kubernetes RKE2
 ### Deployment and Setup
@@ -497,3 +500,33 @@ Has dependencies with 1Password connect helm chart.
 ### Releases
 - [GitHub Atom RSS Feed](https://github.com/cloudflare/cloudflared/releases.atom)
 - [Release Cycle](https://github.com/cloudflare/cloudflared/blob/master/RELEASE_NOTES)
+
+## HashiCorp Vault
+
+### Deployment and Setup
+
+- Terraform Module
+
+    - https://github.com/Zondax/platform-tenants
+        clusters/${TENNANT}/${CLUSTER_NAME}/infra/main.tf
+            [...]
+            source = "git::https://github.com/Zondax/zondax-tf-vault?ref=v0.0.1"
+            [...]
+
+    - https://github.com/Zondax/zondax-tf-vault
+        versions.tf
+            [...]
+            version = "3.24.0"
+            [...]
+
+- 
+
+
+### Releases
+
+
+- [Vault](#vault)
+- [Flux.CD](#fluxcd)
+- [TF-Controller](#tfcontroller)
+
+

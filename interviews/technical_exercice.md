@@ -1,4 +1,4 @@
-# Technical Exercice for Mid/Senior SRE Engineer Candidates
+# Technical Exercise for Mid/Senior SRE Engineer Candidates
 
 ## Objectives
 Candidates will be required to demonstrate their ability to:
@@ -43,4 +43,4 @@ Be sure to test your code in a clean environment to confirm that the installatio
 Pay attention to security details and best practices throughout the exercise.
 
 ## Recommended Time
-I think approximately 3-4 hours working on this task will be enough, distributed among the different sections as needed. It is important that the time is sufficient to demonstrate the technical skills but also to present a well-organized and documented Markdown file.
+We think approximately 3-4 hours working on this task will be enough, distributed among the different sections as needed. It is important that the time is sufficient to demonstrate the technical skills but also to present a well-organized and documented Markdown file.
