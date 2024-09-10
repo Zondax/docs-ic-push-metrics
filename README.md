@@ -1,1 +1,6 @@
-Moved to ClickUp Platform Documentation project: https://app.clickup.com/2469579/v/dc/2bbpb-23952/2bbpb-24412
+# projects-docs
+
+This repo contains docs for external projects that wanted to be published at zondax.ch website by https://github.com/Zondax/web-docs
+
+The folder hierarchy for the repo is, <customer>/<project_name>
+
