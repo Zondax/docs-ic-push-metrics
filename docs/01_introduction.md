@@ -2,9 +2,17 @@
 
 ## Introduction
 
-This project has been propossed to IC to improve the way the metrics and logs are managed within IC nodes. 
+The current state of Internet Computer Protocol (ICP) nodes lacks open access to metrics, relying predominantly on pull-based approaches. This method necessitates modifications at the firewall level, potentially introducing security vulnerabilities.
 
-The project also, add the chance to IC nodes to push metrics instead of just be pulled, and the chance to configure distinct metrics endpoint where to push. This would allow the IC node providers to receive metrics in their own metrics servers, without the need of reconfigure the IC nodes firewall to allow pull.
+Our project aims to address these limitations by modifying the IC node source code to allow nodes to push metrics. This eliminates the need for firewall reconfiguration and external IP management, providing a more secure and streamlined method for accessing node metrics.
+
+This project is designed to significantly benefit IC Node providers, offering an easier and more secure way to obtain metrics without altering firewall settings. Additionally, it introduces the capability for IC nodes to push metrics to configurable external endpoints. This means node providers can receive metrics on their own servers without needing to enable pull-based metrics collection.
+
+The proposed changes to the IC node source code can be reviewed in detail [here](https://github.com/Zondax/ic/tree/metrics) , and we have submitted a preliminary [PR](https://github.com/dfinity/ic/pull/1727) for contributing to IC Nodes. 
+
+A demo video is available [here](https://www.youtube.com/watch?v=ZG1-IJtHBzk)
+
+Our project aims to improve how metrics and logs are managed within IC nodes, making the entire process more secure, customizable, and efficient for node providers.
 
 ### Current architecture
 
